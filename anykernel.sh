@@ -56,4 +56,4 @@ ui_print "Telegram: t.me/Cycle1337"
 ui_print "Features: KPM, Fengchi Kernel(if available), O2, lz4kd/lz4 zram"
 
 sleep 3
-am start -a android.intent.action.VIEW -d tg://resolve?domain=Cycle1337 >/dev/null 2>&1
+am start -a android.intent.action.VIEW -d tg://resolve?domain=Cycle1337 >/dev/null 2>&1 || true
